@@ -3,7 +3,7 @@
 
 # In[5]:
 
-
+#snipet for checking connection
 import requests
 import json
 
@@ -17,7 +17,7 @@ data = response.text
 
 # In[6]:
 
-
+#snipet for loading entire data
 import requests
 import json
 
@@ -31,7 +31,7 @@ print(data)
 
 # In[15]:
 
-
+#snipet for loading all ids of the  data
 import requests
 import json
 
@@ -47,7 +47,7 @@ for item in result['data']:
 
 # In[16]:
 
-
+#snipet for loading employee name from data
 import requests
 import json
 
